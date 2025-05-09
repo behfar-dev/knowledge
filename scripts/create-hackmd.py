@@ -6,6 +6,10 @@ Script to manage HackMD notes:
 - Optionally creates/updates an index book note linking to all prompt notes.
 """
 
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import os
 import sys
